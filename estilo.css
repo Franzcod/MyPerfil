@@ -1,0 +1,209 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+@media (max-width: 75em) {
+  html {
+    font-size: 60%;
+  }
+}
+@media (max-width: 61.25em) {
+  html {
+    font-size: 58%;
+  }
+}
+@media (max-width: 28.75em) {
+  html {
+    font-size: 55%;
+  }
+}
+body {
+  font-family: 'Arial Black', sans-serif;
+  font-size: 1.8rem; /* 18px */
+  font-weight: 400;
+  line-height: 1.4;
+  color: #f0f0f0;
+}
+h1,
+h2 {
+  font-weight: 700;
+  text-align: center;
+  font-family: monospace;
+  color: black;
+}
+h1 {
+  font-size: 6rem;
+}
+
+h2 {
+  font-size: 4.2rem;
+}
+
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: var(--main-white);
+}
+.contact-links1{
+  padding: 1.5vw;
+  font-size: larger;
+  margin-top: 5vw;
+  font-size: 4vw;
+}
+.contact-links1 a{
+  padding: 2vw;
+  color: black;
+  font-size: 3vw;
+
+}
+.contact-links1 a:hover{
+  font-size: 4vw;
+
+}
+
+
+
+img {
+  display: block;
+  width: 90%;
+}
+.nav {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  text-shadow: 0 2px 0 rgba(0, 0, 0, 0.7);
+  z-index: 10;
+}
+.nav-list {
+  display: flex;
+  margin-right: 3rem;
+}
+@media (max-width: 28.75em) {
+  .nav {
+    justify-content: center;
+  }
+
+  .nav-list {
+    margin: 0 1rem;
+  }
+}
+.nav-list a {
+  display: block;
+  font-size: 2.2rem;
+  padding: 2rem;
+}
+
+.nav-list a:hover {
+  background: #3EFC9E;
+}
+.welcome-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: #000;
+  background-image: url("https://www.todopaisajes.com/Minis/playa-al-atardecer.jpg")
+  
+}
+.projects-section {
+  
+  text-align: center;
+  padding: 10rem 2rem;
+  background: #E4ECE8; 
+  border-bottom: 1px solid black;
+}
+.projects-grid {
+  display:flex;
+  justify-content: space-between;
+  width: 90%;
+  
+  margin: 0 auto;
+  margin-bottom: 6rem;
+  /*flex-wrap: wrap;*/
+
+}
+.project-title {
+  font-size: 2rem;
+  padding: 2rem 0.5rem;
+  color: black;
+  text-shadow: 2px 2px 1px white;
+}
+.projects-section-header{
+    padding: 20px;
+    color: #4a4545;
+    text-shadow: 1px 1px #2eada7;
+    font-family: monospace;
+    margin-bottom: 3vw;
+}
+.renglon{
+  background: linear-gradient(to right, red, orange, yellow, green, blue);
+  margin: 2% auto;
+  height: 6px;
+  width: 30%;
+  border-radius: 4px;
+}
+.datos-1{
+  display: flex;
+  width: 50%;
+  
+  
+  justify-content: space-around;
+  align-items: center;
+  /*background-color: rgba(0,0,0,0.3);*/
+  margin: auto;
+  margin-top: 50px;
+  border: 1px solid black;
+  color: black;
+  padding: 5vw;
+}
+
+.h2-2{
+  margin-top: 3vw;
+}
+
+
+.contact-section-header , .contact-links{
+  
+  text-align: center;
+  color: rgb(0,0,0,0.7);
+  background: white;
+  font-family: monospace;
+  
+  
+}
+.contact-links{
+  padding: 1.5vw;
+  margin-bottom: 4vw;
+  margin-top: 4vw; 
+  color: black; 
+}
+.contact-links a{
+  padding: 1.5vw;
+  font-size: x-large;
+}
+footer{
+  background: black;
+  text-align: right;
+  color: white;
+  
+}
+
+
