@@ -162,7 +162,7 @@ img {
 }
 .datos-1{
   display: flex;
-  width: 50%;
+  width: 65%;
   
   
   justify-content: space-around;
@@ -172,7 +172,7 @@ img {
   margin-top: 50px;
   border: 1px solid black;
   color: black;
-  padding: 5vw;
+  padding: 3vw;
 }
 
 .h2-2{
