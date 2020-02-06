@@ -204,6 +204,10 @@ img {
   padding: 1.5vw;
   font-size: x-large;
 }
+#fas{
+  color: red;
+
+}
 footer{
   background: black;
   text-align: right;
