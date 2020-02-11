@@ -69,7 +69,7 @@ a {
 }
 .contact-links1 a{
   padding: 2vw;
-  color: white;
+  color: #40F39A;
   font-size: 3vw;
 
 }
@@ -125,7 +125,7 @@ img {
   width: 100%;
   height: 100vh;
   background-color: #000;
-  background-image: url("https://www.todopaisajes.com/Minis/playa-al-atardecer.jpg")
+  /*background-image: url("https://www.todopaisajes.com/Minis/playa-al-atardecer.jpg")*/
   
 }
 .projects-section {
