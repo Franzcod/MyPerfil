@@ -165,7 +165,7 @@ img {
   background: linear-gradient(to right, red, orange, yellow, green, blue);
   margin: 2% auto;
   height: 6px;
-  width: 30%;
+  width: 40%;
   border-radius: 4px;
 }
 .datos-1{
@@ -173,7 +173,7 @@ img {
   width: 65%;
   
   
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   /*background-color: rgba(0,0,0,0.3);*/
   margin: auto;
