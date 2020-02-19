@@ -87,6 +87,12 @@ img {
   display: block;
   width: 90%;
 }
+
+.project-image-QC{
+  width: 30vw;
+  height: 30vw;
+}
+
 .nav {
   display: flex;
   justify-content: center;
