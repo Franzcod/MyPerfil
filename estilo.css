@@ -137,12 +137,14 @@ img {
   /*background-image: url("https://www.todopaisajes.com/Minis/playa-al-atardecer.jpg")*/
   
 }
+
+
 .projects-section {
   
   text-align: center;
   padding: 10rem 2rem;
-  background: #E4ECE8; 
-  border-bottom: 1px solid black;
+  background: linear-gradient(black, #2eada7, white); 
+  border-bottom: 1px solid black ;
 }
 .projects-grid {
   display:flex;
@@ -162,11 +164,12 @@ img {
 }
 .projects-section-header{
     padding: 20px;
-    color: #4a4545;
-    text-shadow: 1px 1px #2eada7;
+    color: white;
+    /*text-shadow: 2px 2px white;*/
     font-family: monospace;
     margin-bottom: 3vw;
 }
+
 .renglon{
   background: linear-gradient(to right, red, orange, yellow, green, blue);
   margin: 2% auto;
@@ -174,6 +177,18 @@ img {
   width: 40%;
   border-radius: 4px;
 }
+
+.dark-mode-button-div{
+  display: flex;
+  justify-content: flex-start;
+  background-color: white;
+}
+.dark-mode-button{
+  padding: 20px;
+  background-color: white;
+  color: black;
+}
+
 .datos-1{
   display: flex;
   width: 65%;
@@ -223,5 +238,21 @@ footer{
   color: white;
   
 }
+section{
+  background-color: white;
+}
+
+/**  DARK MODE CSS   */
+html.dark-mode{
+  filter: invert(100%);
+}
+
+html.dark-mode .welcome-section{
+  filter: invert(100%);
+}
+html.dark-mode .projects-section{
+  filter: invert(100%);
+}
+
 
 
