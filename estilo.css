@@ -170,6 +170,11 @@ img {
     margin-bottom: 3vw;
 }
 
+.otra-page{
+  height: 100px;
+  color: black;
+}
+
 .renglon{
   background: linear-gradient(to right, red, orange, yellow, green, blue);
   margin: 2% auto;
@@ -253,10 +258,7 @@ html.dark-mode .welcome-section{
 html.dark-mode .projects-section{
   filter: invert(100%);
 }
-.otra-page{
-  height: 100px;
-  color: #000;
-}
+
 
 
 
