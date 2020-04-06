@@ -253,6 +253,10 @@ html.dark-mode .welcome-section{
 html.dark-mode .projects-section{
   filter: invert(100%);
 }
+.otra-page{
+  height: 100px;
+  color: #000;
+}
 
 
 
