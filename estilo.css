@@ -1,12 +1,10 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
-}
+
+
 html {
   box-sizing: border-box;
   font-size: 62.5%;
@@ -32,7 +30,10 @@ body {
   font-size: 1.8rem; /* 18px */
   font-weight: 400;
   line-height: 1.4;
-  color: #f0f0f0;
+  color: black;
+  align-items: center;
+  justify-content: center;
+
 }
 h1{
   font-weight: 700;
@@ -247,18 +248,63 @@ section{
   background-color: white;
 }
 
-/**  DARK MODE CSS   */
+/*  DARK MODE CSS   */
+
 html.dark-mode{
   filter: invert(100%);
 }
 
 html.dark-mode .welcome-section{
   filter: invert(100%);
-}
+} 
+
 html.dark-mode .projects-section{
   filter: invert(100%);
+} 
+
+
+/*  PRUEBA  ------------------------------------------------*/
+
+.shadow{
+  border-radius: 10px;
+  z-index: 2;
+  margin: 50px auto 50px;
+  
+  position: relative;
+  width: 60%;
+  height: 1px;
+  background: transparent;
+  color: white;
+  font-size: 32px;
+  text-align: center;
+  line-height: 350px;
+  text-transform: uppercase;
 }
 
+.shadow::before, .shadow::after{
+  z-index: 1;
+  content: '';
+  position: absolute;
+  width: calc(100%);
+  height: calc( 100% + 0.5vh);
+  top: -3px;
+  left: -3px;
+  background: linear-gradient(45deg,#ffff00, #fc0090, #0000ff,#00ff00,#ff0000,#ffff00,#fc0090,#0000ff,#00ff00,#ff0000,#ffff00);
+  background-size: 300%;
+  animation: shadow 50s linear infinite;
+}
+
+.shadow::after{
+  filter: blur(20px);
+}
+@keyframes shadow{
+  0%{background-position: 0 0 ;}
+  50%{background-position: 300%;}
+  100%{background-position: 0 0 ;}
+}
+
+
+/* PRUEBA -------------------------------------------------*/
 
 
 
